@@ -86,7 +86,49 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /* General Styles */
 
+   html {
+     font-size: 16px;
+   }
+
+   body {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 1em;
+     text-align: left;
+   }
+
+   ul,
+   ol {
+     list-style-type: none;
+   }
+
+   a {
+     color: #e2e3ed;
+     text-decoration: none;
+   }
+
+   h2 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 1.875em;
+   }
+
+   h3,
+   h4 {
+     font-family: 'Poppins', sans-serif;
+     margin: 20px 0;
+     font-size: 1.125em;
+   }
+
+   p {
+     font-size: .875em;
+     line-height: 1.285;
+   }
+
+   address {
+     font-family: 'Open Sans', sans-serif;
+     font-style: normal;
+   }
 
    .content-wrapper {
      width: 90%;
@@ -136,8 +178,7 @@ textarea {
 
         header nav ul {
           display: flex;
-          justify-content: center;
-          align-items: center;
+          justify-content: space-around;
           width: 100%;
         }
 
@@ -145,7 +186,6 @@ textarea {
    .hero-area {
      display: flex;
      justify-content: center;
-     /* align-items: center; */
      flex-flow: row wrap;
    }
 
@@ -159,20 +199,19 @@ textarea {
    .features {
      display: flex;
      justify-content: center;
-     /* align-items: center; */
      flex-flow: row wrap;
    }
 
-      features h2 {
+      .features h2 {
         margin-bottom: 60px;
       }
 
-      article {
+      .features article {
         width: 63%;
         margin: 30px 0;
       }
 
-        .features-items {
+        .features .features-items {
           display: flex;
           justify-content: center;
           align-items: center;
@@ -186,7 +225,6 @@ textarea {
    .reviews {
      display: flex;
      justify-content: center;
-     /* align-items: center; */
      flex-flow: row wrap;
    }
         .reviews h2 {
@@ -255,33 +293,23 @@ textarea {
       margin: 50px 0;
     }
 
-      .footer-content {
-
-      }
-
-        .contact {
+        footer .contact {
           margin-bottom: 50px;
         }
 
-      /*--.social {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        } --*/
-
-          .social-icons {
+          footer .social-icons {
             display: flex;
             justify-content: space-around;
             align-items: center;
           }
 
-          .social-icons p {
+          footer .social-icons p {
             display: flex;
             justify-content: center;
             align-items: center;
           }
 
-    .copyright {
+    footer .copyright {
       margin: 20px 0;
     }
 
@@ -373,7 +401,7 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-/*============================================= Desktop styles here =============================================*/
+/*============================================= Tablet styles here =============================================*/
 
    @media only screen and (min-width: 768px) {
 
