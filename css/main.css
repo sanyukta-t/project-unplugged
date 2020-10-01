@@ -87,6 +87,13 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+   .content-wrapper {
+     width: 90%;
+     margin: 50px 0;
+   }
+
+
    /*-------------------------- Base Header - Footer Styles --------------------------*/
    header,
    footer {
@@ -98,42 +105,47 @@ textarea {
 
    /*----- Header Styles -----*/
    header {
-
+     padding: 15px 0;
    }
 
-   header .content-wrapper {
+    header .content-wrapper {
      display: flex;
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
-   }
+     margin: 0;
+    }
 
-   header figure {
+      header figure {
 
-   }
+      }
 
-   .header-divider {
+      .header-divider {
+        width: 100%;
+        height: 1px;
+        margin: 10px 0 20px 0;
+      }
 
-   }
+      header nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-flow: row wrap;
+        width: 60%;
+      }
 
-   header nav {
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     flex-flow: row wrap;
-   }
-
-   header nav ul {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-   }
+        header nav ul {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+        }
 
    /*-------------------------- Mobile Styles - Homepage --------------------------*/
    .hero-area {
      display: flex;
      justify-content: center;
-     align-items: center;
+     /* align-items: center; */
      flex-flow: row wrap;
    }
 
@@ -147,23 +159,44 @@ textarea {
    .features {
      display: flex;
      justify-content: center;
-     align-items: center;
+     /* align-items: center; */
      flex-flow: row wrap;
    }
 
-    .features-items {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-flow: row wrap;
-    }
+      features h2 {
+        margin-bottom: 60px;
+      }
+
+      article {
+        width: 63%;
+        margin: 30px 0;
+      }
+
+        .features-items {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-flow: row wrap;
+        }
+
+          .features p {
+            margin: 0;
+          }
 
    .reviews {
      display: flex;
      justify-content: center;
-     align-items: center;
+     /* align-items: center; */
      flex-flow: row wrap;
    }
+        .reviews h2 {
+          margin-bottom: 40px;
+        }
+
+        .reviews h3 {
+          width: 50%;
+          margin: 20px 0;
+        }
 
    /*-------------------------- Mobile Styles - About --------------------------*/
    .mission {
@@ -180,6 +213,10 @@ textarea {
      flex-flow: row wrap;
    }
 
+    .contact-content p {
+      margin: 0;
+    }
+
    /*-------------------------- Mobile Styles - FAQ --------------------------*/
    .faq {
      display: flex;
@@ -193,15 +230,29 @@ textarea {
       justify-content: center;
       align-items: center;
       flex-flow: row wrap;
+      margin: 50px 0 0 0;
     }
+
+      .faq h2 {
+        margin-bottom: 40px;
+      }
+
+      .faq-content {
+        margin-bottom: 50px;
+      }
 
    /*----- Footer Styles -----*/
    footer {
-
+     flex-direction: column;
    }
 
-    footer .content-wrapper {
+    footer p {
+      margin: 0;
+    }
 
+    footer .content-wrapper {
+      width: 55%;
+      margin: 50px 0;
     }
 
       .footer-content {
@@ -209,23 +260,29 @@ textarea {
       }
 
         .contact {
-
+          margin-bottom: 50px;
         }
 
-        .social {
+      /*--.social {
           display: flex;
           justify-content: center;
           align-items: center;
-        }
+        } --*/
 
           .social-icons {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+          }
+
+          .social-icons p {
             display: flex;
             justify-content: center;
             align-items: center;
           }
 
     .copyright {
-
+      margin: 20px 0;
     }
 
 /* ==========================================================================
