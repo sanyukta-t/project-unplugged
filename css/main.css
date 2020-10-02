@@ -137,6 +137,13 @@ textarea {
      margin: 50px 0;
    }
 
+   img {
+   	width: 100%;
+   }
+
+   figure {
+    margin: 0;
+   }
 
    /*-------------------------- Base Header - Footer Styles --------------------------*/
    header,
@@ -159,6 +166,14 @@ textarea {
       align-items: center;
       flex-flow: row wrap;
       margin: 0;
+    }
+
+    header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
     }
 
     .header-divider {
@@ -229,6 +244,8 @@ textarea {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
+     background: url("../img/jake-melara-30679-unsplash.jpg") center no-repeat #333;
+     background-size: cover;
    }
 
    .hero-area h1 {
@@ -279,6 +296,8 @@ textarea {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
+     background: url("../img/rawpixel-800820-unsplash1.jpg") center no-repeat #333;
+     background-size: cover;
    }
 
    .features h2 {
@@ -489,8 +508,12 @@ textarea {
       justify-content: space-between;
     }
 
+    header figure {
+    width: 27%;
+    }
+
     header nav {
-      width: 20%;
+      width: 30%;
     }
 
     header nav ul {
@@ -548,7 +571,11 @@ textarea {
     }
 
     .reviews article div {
-      width: 49%;
+      width: 50%;
+    }
+
+    .reviews figure {
+      width: 48%;
     }
 
     .reviews h3 {
@@ -648,6 +675,10 @@ textarea {
        max-width: 960px;
      }
 
+     header nav {
+       width: 20%;
+     }
+
      h2 {
        font-size: 2.25em;
      }
@@ -665,7 +696,7 @@ textarea {
   /*----- Main Area -----*/
      .hero-area h1 {
        font-size: 3.75em;
-       width: 60%;
+       width: 70%;
      }
 
      aside .content-wrapper {
@@ -695,6 +726,23 @@ textarea {
 
      .reviews article div {
        width: 42%;
+     }
+
+     .reviews article div {
+       width: 50%;
+     }
+
+     .reviews figure {
+       width: 50%;
+       margin: 0 20px 0 0;
+     }
+
+     .reviews h3, {
+       width: 75%;
+     }
+
+     .reviews p {
+       width: 90%;
      }
 
   /*----- Footer styles -----*/
