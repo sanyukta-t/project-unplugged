@@ -617,7 +617,8 @@ textarea {
     .reviews h3 {
       width: 75%;
       margin: 0;
-  }
+    }
+
     /*----- Footer styles ----- */
     footer .content-wrapper {
       width: 65%;
@@ -647,6 +648,7 @@ textarea {
     footer .social-icons {
       width: 12.5em;
       justify-content: space-between;
+    }
 
     footer .copyright {
       width: 100%;
@@ -693,7 +695,7 @@ textarea {
       justify-content: space-between;
     }
 
-    .faq-content {
+    .faq .faq-content {
       flex-basis: 45%;
     }
 
@@ -706,7 +708,7 @@ textarea {
         font-size: .875em;
         line-height: 1.125;
     }
-
+  }
 /*============================================= Desktop styles here =============================================*/
    @media only screen and (min-width: 1200px) {
 
@@ -781,7 +783,7 @@ textarea {
        margin: 0 20px 0 0;
      }
 
-     .reviews h3, {
+     .reviews h3 {
        width: 75%;
      }
 
